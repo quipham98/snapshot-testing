@@ -8,8 +8,8 @@
 
 ### Endpoint
 
-- mainnet: [chaindata-0x1df4c64.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-0x1df4c64.tar.zst)
-- testnet: [testnet-chaindata-20240124.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-20240124.tar.zst) - md5: 185b331a21fad339fbdb2f6c27b913a0
+- mainnet: [chaindata-20240124.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/chaindata-20240124.tar.zst) - md5: 185b331a21fad339fbdb2f6c27b913a0
+- testnet: [testnet-chaindata-0x16fb253.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/testnet-chaindata-0x16fb253.tar.zst)
 
 ### Usage
 
