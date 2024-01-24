@@ -114,7 +114,7 @@ Step 3: Install the node
 > For more granular upload & download to avoid big files error, split the files into several chunks, so please download them together and concatenate finally.
 ### Endpoint(Testnet): update every 6 months
 
-- archive-testnet: [] md5=
+- archive-testnet: [archive-testnet-chaindata-20240124.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-testnet-chaindata-20240124.tar.zst) - md5: 185b331a21fad339fbdb2f6c27b913a0
 
 ### Endpoint(Mainnet): update bi-weekly
 - archive-mainnet-000: [archive-mainnet-chaindata-20240124.tar.zst-000](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240124.tar.zst-000) - md5: 253a5f76fff78acbc0ef3bca1235612b
