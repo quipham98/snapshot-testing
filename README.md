@@ -116,7 +116,7 @@ Step 3: Install the node
 
 - archive-testnet: [archive-testnet-chaindata-20240124.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-testnet-chaindata-20240124.tar.zst) - md5: 185b331a21fad339fbdb2f6c27b913a0
 
-### Endpoint(Mainnet): update bi-weekly
+### Endpoint(Mainnet): update every 3 months
 - archive-mainnet-003: [archive-mainnet-chaindata-20240125.tar.zst-003](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-003) - md5: e87cfd6ec8fff9443ce46b52ab994931
 - archive-mainnet-004: [archive-mainnet-chaindata-20240125.tar.zst-004](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-004) - md5: a1fe0d2f755519f09202988bd9c6240e
 - archive-mainnet-000: [archive-mainnet-chaindata-20240125.tar.zst-000](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-000) - md5: 253a5f76fff78acbc0ef3bca1235612b
