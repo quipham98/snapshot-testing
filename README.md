@@ -125,12 +125,13 @@ Step 3: Install the node
 
 ### Endpoint (Mainnet full data) [from: 0 - to: 31.441.790]:
 - archive-mainnet: [archive-mainnet-chaindata-20240125.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst) - md5: 185b331a21fad339fbdb2f6c27b913a0
-### Endpoint(Mainnet): update bi-weekly
-- archive-mainnet-000: [archive-mainnet-chaindata-20240125.tar.zst-000](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-000) - md5: 253a5f76fff78acbc0ef3bca1235612b
-- archive-mainnet-001: [archive-mainnet-chaindata-20240125.tar.zst-001](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-001) - md5: 2980492f6894a771e552d5348ed1a1e2
-- archive-mainnet-002: [archive-mainnet-chaindata-20240125.tar.zst-002](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-002) - md5: d3c6693c2092a84e5e32a5708cee7b3c
-- archive-mainnet-003: [archive-mainnet-chaindata-20240125.tar.zst-003](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-003) - md5: e87cfd6ec8fff9443ce46b52ab994931
-- archive-mainnet-004: [archive-mainnet-chaindata-20240125.tar.zst-004](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-004) - md5: a1fe0d2f755519f09202988bd9c6240e
 
-### Endpoint (Mainnet full data) [from: 0 - to: 31.441.894]:
-- archive-mainnet: [archive-mainnet-chaindata-20240125.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst) - md5: 185b331a21fad339fbdb2f6c27b913a0
+### Usage
+
+Download && Concatenate && Uncompress
+
+```shell
+aria2c -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-00[0]..archive-mainnet-chaindata-20240125.tar.zst-00[4]
+cat "archive-mainnet-chaindata-20240125.tar.zst-"* > combined_compressed_file.tar.zst
+tar -I zstd -xvf chaindata.tar.zst
+```
