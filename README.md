@@ -117,16 +117,17 @@ Step 3: Install the node
 - archive-testnet: [archive-testnet-chaindata-20240124.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-testnet-chaindata-20240124.tar.zst) - md5: 185b331a21fad339fbdb2f6c27b913a0
 
 
-### Endpoint(Mainnet): update every 3 months
-- archive-mainnet-000: [archive-mainnet-chaindata-20240125.tar.zst-000](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-000) - md5: 0b5927ba78aa35abf0209fb340fceef5
 
-### Endpoint (Mainnet full data) [from: 0 - to: 31.442.914]:
-- archive-mainnet: [archive-mainnet-chaindata-20240125.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst) - md5: 0b5927ba78aa35abf0209fb340fceef5
+### Endpoint(Mainnet): update every 3 months
+- archive-mainnet-000: [archive-mainnet-chaindata-20240126.tar.zst-000](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240126.tar.zst-000) - md5: 15e9f506486c42f74e504bcdc056c834
+
+### Endpoint (Mainnet full data) [from: 0 - to: 31.469.783]:
+- archive-mainnet: [archive-mainnet-chaindata-20240126.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240126.tar.zst) - md5: 15e9f506486c42f74e504bcdc056c834
 
 ### Usage
 Download && Concatenate && Uncompress
 ```shell
-aria2c -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-00[0]..archive-mainnet-chaindata-20240125.tar.zst-00[--replaceme--]
+aria2c -s14 -x14 -k100M https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240125.tar.zst-00[0]..archive-mainnet-chaindata-20240125.tar.zst-00[]
 cat "archive-mainnet-chaindata-20240125.tar.zst-"* > combined_compressed_file.tar.zst
 tar -I zstd -xvf chaindata.tar.zst
 ```
