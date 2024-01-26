@@ -122,7 +122,7 @@ Step 3: Install the node
 ### Endpoint(Mainnet): update every 3 months
 - archive-mainnet-000: [archive-mainnet-chaindata-20240126.tar.zst-000](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240126.tar.zst-000) - md5: 15e9f506486c42f74e504bcdc056c834
 
-### Endpoint (Mainnet full data) [from: 0 - to: 31.469.818]:
+### Endpoint (Mainnet full data) [from: 0 - to: 31.469.837]:
 - archive-mainnet: [archive-mainnet-chaindata-20240126.tar.zst](https://pub-3cca138de6c349f8afe5f6635f9f6f81.r2.dev/data/archive-mainnet-chaindata-20240126.tar.zst) - md5: 15e9f506486c42f74e504bcdc056c834
 
 ### Usage
